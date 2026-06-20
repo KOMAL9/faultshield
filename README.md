@@ -86,7 +86,7 @@ Run each in a separate terminal
 ```
 
 ### 4. Start the dashboard
-```bash
+
 cd faultshield-ui
 npm install
 npm start
