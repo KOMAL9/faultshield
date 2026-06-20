@@ -1,0 +1,17 @@
+﻿.claude/
+tmp/
+*.log
+debug
+get-docker.sh
+job-service
+job-service-err
+scheduler
+worker
+worker2
+worker3
+worker-err
+worker2-err
+worker3-err
+faultshield/target/
+faultshield/*/target/
+faultshield-ui/node_modules/
