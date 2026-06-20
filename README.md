@@ -81,13 +81,8 @@ docker-compose up -d
 This spins up Kafka, Zookeeper, PostgreSQL, and Redis.
 
 ### 3. Start the backend services
-Run each in a separate terminal:
-```bash
-java -jar job-service/target/job-service-1.0-SNAPSHOT.jar
-java -jar scheduler-service/target/scheduler-service-1.0-SNAPSHOT.jar
-java -Dworker.id=worker-1 -Dserver.port=8083 -jar worker-node/target/worker-node-1.0-SNAPSHOT.jar
-java -Dworker.id=worker-2 -Dserver.port=8084 -jar worker-node/target/worker-node-1.0-SNAPSHOT.jar
-java -Dworker.id=worker-3 -Dserver.port=8085 -jar worker-node/target/worker-node-1.0-SNAPSHOT.jar
+Run each in a separate terminal
+
 ```
 
 ### 4. Start the dashboard
